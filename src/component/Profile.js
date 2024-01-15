@@ -1,6 +1,9 @@
 function Profile(){
     return(
-        <div>Profile!</div>
+        <div>
+            <header><h1>Profile</h1></header>
+            
+        </div>
     )
 }
 
