@@ -1,0 +1,60 @@
+[
+    {
+        "title":"큠린더",
+        "leadtime":"4개월",
+        "desc": "히어로즈 팬을 위한 직관 기록 일기장",
+        "thumbnail": "",
+        "link":{
+            "github":"https://github.com/letsummer/heroesdiary",
+            "demo":"https://heroesdiary.onrender.com/"
+        },
+        "techstack":["pug", "Javascript", "node.js", "CSS", "KBO API(네이버스포츠)"],
+        "detail":[
+            {
+                "function":"회원가입/수정/탈퇴 기능",
+                "preview": "../img/2/1-1.jpg"
+            },
+            {
+                "function":"로그인/로그아웃 기능",
+                "preview": "../img/2/2.jpg"
+            },
+            {
+                "function":"환영 인사",
+                "preview": "../img/2/3.jpg"
+            },
+            {
+                "function":"개인별 감상 기록 기능 (직관 여부, 날씨, 감정)",
+                "preview": "../img/2/4.jpg"
+            },
+            {
+                "function":"응원팀 경기 기록 자동 로드 기능 (경기장, 스코어보드, 선발투수)",
+                "preview": "../img/2/5.jpg"
+            },
+            {
+                "function":"일기 작성 기능",
+                "preview": "../img/2/6.jpg"
+            },
+            {
+                "function":"사진 첨부 기능",
+                "preview": "../img/2/7.jpg"
+            },
+            {
+                "function":"일자별 기록 초기화 기능",
+                "preview": "../img/2/8.jpg"
+            }
+        ]
+    },
+    {
+        "title":"Heroes Momentum",
+        "leadtime":"2주",
+        "desc": "히어로즈 구단의 콘텐츠를 활용한 momentum 페이지",
+        "thumbnail": "",
+        "link":{
+            "github":"https://github.com/letsummer/momentum",
+            "demo":"https://letsummer.github.io/momentum"
+        },
+        "techstack":["HTML", "CSS", "Javacript", "날씨 API"],
+        "detail":[
+        ]
+    }
+]
