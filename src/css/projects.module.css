@@ -1,0 +1,64 @@
+
+.contents{
+    animation: loading 1s linear;
+}
+.details{
+    border: 2px solid black;
+    margin-top: 10px;
+    padding: 20px;
+}
+.projects{
+    display: flex;
+}
+
+
+.description{
+    text-align: center;
+    width: 200px;
+    border: 2px solid black;
+    margin-right: 10px;
+    padding: 20px;
+}
+.description:hover{
+    animation: mouseover 0.5s ease-in-out forwards;
+}
+
+.description>p:nth-child(2){
+    font-weight: 800;
+}
+
+.icon{
+    width: 20px;
+    margin-right: 5px;
+}
+.functions{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.function{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 30%;
+    margin-top: 10px;
+    padding: 10px;
+}
+.previewImg{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+@keyframes mouseover{
+    to{
+        background-color: white; /* 애니메이션 종료 색상 */
+        transform: scale(1.05);
+    }
+}
+
+@keyframes loading {
+    from{
+        opacity: 0;
+    }
+}
