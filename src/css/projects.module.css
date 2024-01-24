@@ -1,17 +1,24 @@
 
 .contents{
     animation: loading 1s linear;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* width: 1200px; */
+}
+
+.projects{
+    display: flex;
+    /* width: 30%; */
+    justify-content: space-evenly;
 }
 .details{
     border: 2px solid black;
+    width: 100%;
     margin-top: 10px;
     padding: 20px;
 }
-.projects{
-    display: flex;
-}
-
-
 .description{
     text-align: center;
     width: 200px;
@@ -22,14 +29,28 @@
 .description:hover{
     animation: mouseover 0.5s ease-in-out forwards;
 }
-
+.description>p{
+    margin: 5px;
+    padding: 2px;
+}
 .description>p:nth-child(2){
     font-weight: 800;
 }
+.timeDetail{
+    font-size: small;
+}
+
 
 .icon{
     width: 20px;
     margin-right: 5px;
+}
+.stackList{
+    display: flex;
+    align-items: center;
+}
+.stackList > div{
+    margin: 5px;
 }
 .functions{
     display: flex;
