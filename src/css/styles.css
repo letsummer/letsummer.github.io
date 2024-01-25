@@ -1,3 +1,38 @@
+
 .focused div{
     background-color: #9cc3f8;
+    
+}
+.contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: white;
+    background-image: radial-gradient(grey 1px, transparent 0);
+    background-size: 40px 40px;
+    background-position: -19px -19px;
+    height: 500px;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+.mainText{
+    margin: 50px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 800%;
+}
+main{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.icon{
+    width: 20px;
+    margin-right: 5px;
+}
+table{
 }

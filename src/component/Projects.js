@@ -42,8 +42,8 @@ function Projects() {
                 ))}
             </div>
             <div className={styles.details}>
-                <a href={list[currentTab].link.github} target="_blank"><img className={styles.icon} src={githubLogo} alt={list[currentTab].link.github} /></a>
-                <a href={list[currentTab].link.demo} target="_blank"><img className={styles.icon} src={web} alt="" /></a>
+                <a href={list[currentTab].link.github} target="_blank"><img className="icon" src={githubLogo} alt={list[currentTab].link.github} /></a>
+                <a href={list[currentTab].link.demo} target="_blank"><img className="icon" src={web} alt="" /></a>
                 <br/>
                 <div className={styles.stackList}>
                     기술스택: {list[currentTab].techstack.map((item)=>(

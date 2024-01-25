@@ -1,14 +1,14 @@
 .submenu .focused{
     color: antiquewhite;
 }
+
 .contents{
     display: flex;
-    justify-content: center;
-
     background-color: white;
     background-image: radial-gradient(grey 1px, transparent 0);
     background-size: 40px 40px;
     background-position: -19px -19px;
+    width: 100%;
     height: 500px;
     flex-wrap: wrap;
     overflow-y: scroll;
@@ -17,7 +17,9 @@
 .projects{
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
+    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
 }
 .details{
     border: 2px solid black;
@@ -27,7 +29,8 @@
 }
 .description{
     text-align: center;
-    width: 200px;
+    width: auto;
+    height: 100%;
     border: 2px solid black;
     margin-right: 10px;
     padding: 20px;
@@ -46,10 +49,7 @@
     font-size: small;
 }
 
-.icon{
-    width: 20px;
-    margin-right: 5px;
-}
+
 .stackList{
     display: flex;
     align-items: center;
