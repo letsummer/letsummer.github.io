@@ -13,15 +13,15 @@
         "detail":[
             {
                 "function":"현위치 기반 맛집 표시 (거부 시 기본 위치 제공)",
-                "preview": "img/3/1.jpg"
+                "preview": "../../img/3/1.jpg"
             },
             {
                 "function":"클릭 시 인포윈도우로 정보 미리보기",
-                "preview": "img/3/2.jpg"
+                "preview": "../img/3/2.jpg"
             },
             {
                 "function":"식당정보/추천트윗 모아보기 기능",
-                "preview": "img/3/3.jpg"
+                "preview": "./img/3/3.jpg"
             },
 
             {

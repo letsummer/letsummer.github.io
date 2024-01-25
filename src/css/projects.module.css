@@ -1,16 +1,22 @@
-
+.submenu .focused{
+    color: antiquewhite;
+}
 .contents{
-    animation: loading 1s linear;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
-    /* width: 1200px; */
+
+    background-color: white;
+    background-image: radial-gradient(grey 1px, transparent 0);
+    background-size: 40px 40px;
+    background-position: -19px -19px;
+    height: 500px;
+    flex-wrap: wrap;
+    overflow-y: scroll;
 }
 
 .projects{
     display: flex;
-    /* width: 30%; */
+    width: 100%;
     justify-content: space-evenly;
 }
 .details{
@@ -27,7 +33,7 @@
     padding: 20px;
 }
 .description:hover{
-    animation: mouseover 0.5s ease-in-out forwards;
+    background-color: #9cc3f8;
 }
 .description>p{
     margin: 5px;
@@ -39,7 +45,6 @@
 .timeDetail{
     font-size: small;
 }
-
 
 .icon{
     width: 20px;
@@ -60,10 +65,11 @@
 .function{
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 30%;
+    /* margin: 10px; */
     margin-top: 10px;
-    padding: 10px;
+    padding: 20px;
 }
 .previewImg{
     width: 100%;
@@ -71,15 +77,4 @@
     border-radius: 10px;
 }
 
-@keyframes mouseover{
-    to{
-        background-color: white; /* 애니메이션 종료 색상 */
-        transform: scale(1.05);
-    }
-}
 
-@keyframes loading {
-    from{
-        opacity: 0;
-    }
-}

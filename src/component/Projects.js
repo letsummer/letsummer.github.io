@@ -4,10 +4,12 @@ import web from "../img/web.png";
 import list from "../json/projectlist.json";
 // import logos from "../json/logos.json";
 import styles from "../css/projects.module.css";
+import "../css/styles.css";
 
 
 function Projects() {
     const [currentTab, setTab] = useState(0);
+    // const mainlink = "https://letsummer.github.io/public/";
       
     function handlingTab(index){
         setTab(index);
@@ -26,7 +28,7 @@ function Projects() {
         <div className={styles.contents}>
             <div className={styles.projects}>
                 {list.map((item,index) => (
-                    <div key={index} className={currentTab === index? 'submenu focused': 'submenu'}
+                    <div key={index} className={currentTab === index? `submenu focused`: 'submenu'}
                         onClick={() => handlingTab(index)}>
                         <div className={styles.description} key={index} 
                             onMouseOver={onMouseover} onMouseLeave={onMouseleave}>
@@ -54,6 +56,7 @@ function Projects() {
                         <div className={styles.function}>
                             <p>{item.function}</p>
                             <img className={styles.previewImg} src={item.preview} alt={item.preview} />
+                            {/* {console.log(mainlink+item.preview)} */}
                         </div>
                     ))}
                 </div>
